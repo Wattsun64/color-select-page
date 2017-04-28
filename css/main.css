@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Gloria+Hallelujah');
+html,
+button,
+option,
+select {
+    font-family: 'Gloria Hallelujah';
+}
+
+#container {
+    position: absolute;
+    left: 33%;
+    top: 15em;
+    text-align: center;
+}
+
+select,
+button {
+    outline: none;
+    color: #000;
+    height: 3em;
+    width: 5em;
+    font-size: 1.2em;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+button {
+    border-radius: 0.3em;
+}
+
+button:hover,
+select:hover {
+    text-decoration: underline;
+}
+
+select {
+    width: 20em;
+}
+
+
+/* Animation */
+
+.mvInFromTop {
+    animation: 1s mvInFromTop;
+}
+
+@keyframes mvInFromTop {
+    from {
+        transform: translateY(-20em)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+.clrChange {
+    animation: 1s clrChange;
+}
+
+@keyframes clrChange {
+    from,
+    to {
+        transform: translateX(0)
+    }
+    10% {
+        transform: translateX(-2em)
+    }
+    30% {
+        transform: translateX(2em)
+    }
+    50% {
+        transform: translateX(-1em)
+    }
+    70% {
+        transform: translateX(1em)
+    }
+}
