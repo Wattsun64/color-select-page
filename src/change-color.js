@@ -13,4 +13,4 @@
         container.addEventListener('animationend', function() { this.classList.remove('clrChange') })
     }
 
-}())
+}());
