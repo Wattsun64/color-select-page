@@ -18,7 +18,7 @@
             })
         }
     }
-    http.open('GET', '../colors.json', true);
+    http.open('GET', './colors.json', true);
     http.send();
 
 }())
