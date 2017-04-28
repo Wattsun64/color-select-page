@@ -57,5 +57,6 @@
         { "name": "MediumVioletRed", "value": "mediumvioletred" },
         { "name": "PaleVioletRed", "value": "palevioletred" },
         { "name": "Pink", "value": "pink" }
-    ]
+    ],
+    "@context": "https://w3id.org/security/v1"
 }
