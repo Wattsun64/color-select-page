@@ -5,7 +5,7 @@
 
     http.onreadystatechange = readyStateChange;
 
-    http.open('GET', 'https://wattsun64.github.io/color-select-page/colors.json', true);
+    http.open('GET', 'wattsun64.github.io/color-select-page/colors.json', true);
     http.send();
 
     function readyStateChange() {
