@@ -18,6 +18,6 @@
             })
         }
     }
-    http.open('GET', '../colors.json', true);
+    http.open('GET', 'https://wattsun64.github.io/color-select-page/colors.json', true);
     http.send();
 }());
