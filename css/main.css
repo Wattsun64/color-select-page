@@ -75,3 +75,30 @@ select {
         transform: translateX(1em)
     }
 }
+
+.wobble {
+    position: relative;
+    animation: 1s wobble;
+}
+
+@keyframes wobble {
+    from,
+    to {
+        transform: rotateZ(0)
+    }
+    10% {
+        transform: rotateZ(-20deg)
+    }
+    30% {
+        transform: rotateZ(20deg)
+    }
+    50% {
+        transform: rotateZ(-10deg)
+    }
+    70% {
+        transform: rotateZ(10deg)
+    }
+    90% {
+        transform: rotateZ(-5deg)
+    }
+}

@@ -10,8 +10,8 @@
         document.body.style.backgroundColor = '';
         sel.value = 'white';
 
-        container.classList.add('clrChange');
-        container.addEventListener('animationend', function() { this.classList.remove('clrChange') });
+        container.classList.add('wobble');
+        container.addEventListener('animationend', function() { this.classList.remove('wobble') });
 
     }
 
